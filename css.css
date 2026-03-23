@@ -3,7 +3,6 @@ header {
     height: 500px;
     background-image: url("https://i.imgur.com/XLDnkyO.jpeg");
     background-size: cover;
-    border-bottom: 10px solid greenyellow;
     border-top: 10px solid greenyellow;
     color: black;
     text-align: center;
@@ -20,6 +19,12 @@ h1 {
 
 h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+border-bottom: 10px solid greenyellow;
+border-top: 10px solid greenyellow;
+background-color: rgb(44, 44, 44);
 }
 
 nav ul {
@@ -95,4 +100,7 @@ a.a {
 
 footer {
     color: greenyellow;
+    border-top: 5px solid greenyellow;
+    background-color: rgb(44, 44, 44);
+    font-size: larger;
 }
