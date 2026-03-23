@@ -22,9 +22,25 @@ h2 {
 }
 
 nav {
-border-bottom: 10px solid greenyellow;
-border-top: 10px solid greenyellow;
-background-color: rgb(44, 44, 44);
+    border-bottom: 10px solid greenyellow;
+    border-top: 10px solid greenyellow;
+    background-color: rgb(44, 44, 44);
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+}
+
+aside {
+    margin: 100px 50px 50px 100px;
+    text-decoration: none;
+    border: 6px solid greenyellow;
+    border-radius: 5px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    width: 200px;
 }
 
 nav ul {
@@ -79,6 +95,15 @@ section.soorten {
     color: white;
 }
 
+section.gs {
+    margin: 100px 50px 50px 100px;
+    text-decoration: none;
+    border: 6px solid greenyellow;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
 p {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
@@ -89,6 +114,13 @@ height: 100%;
 margin: 0;
 }
 
+#container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 3fr  1fr;
+}
 
 body {
     background-color: rgb(0, 0, 0);
